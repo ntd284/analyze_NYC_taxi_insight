@@ -23,6 +23,12 @@ The project aims to answer key questions through data analysis:
 - What is the distribution of payment methods (dispute, no charge, cash, credit card), and how do they impact revenue and customer satisfaction?
 - What are the total amounts for each fare type (standard rate, JFK, Newark, negotiated fare, unknown, Nassau or Westchester), and how does fare type popularity influence overall revenue?
 
+Data Model:
+
+<p align="center">
+  <img src="images/data_model.png" alt="Wallpaper">
+</p>
+
 ## Getting Started:
 
 Project file:
