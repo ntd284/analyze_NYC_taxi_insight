@@ -14,7 +14,7 @@ This fragmentation resulted in incomplete insights and hindered our ability to m
 
 ## Main Tasks:
 
-The project aims to answer key questions through data analysis:
+### Objectives
 
 - How many `total trips` were recorded, and what insights can be drawn from the trip volume?
 - What is the `total revenue` generated, and what factors influence revenue trends?
@@ -23,7 +23,7 @@ The project aims to answer key questions through data analysis:
 - What is the `distribution of payment methods` (dispute, no charge, cash, credit card), and how do they impact revenue and customer satisfaction?
 - What are the `total amounts` for each fare type (standard rate, JFK, Newark, negotiated fare, unknown, Nassau or Westchester), and how does fare type popularity influence overall revenue?
 
-Data Model:
+### Data Model:
 
 <p align="center">
   <img src="images/data_model.png" alt="Wallpaper">
@@ -31,7 +31,7 @@ Data Model:
 
 ## Getting Started:
 
-Project file:
+### Project file:
 
 - [preparation_data.py](preparation_data.py):  is designed to merge and process raw data into a standardized format, ensuring high-quality data for analysis. Additionally, it stores the processed data in `Minio storage` for backup and processing purposes.
 
