@@ -120,4 +120,4 @@ Check inserted table in <b>PostgreSQL</b> and <b>Minio</b> (`http://localhost:90
 
 [3] [NYC Taxi Trip Data Analysis](https://medium.com/@muhammadaris10/nyc-taxi-trip-data-analysis-45ecfdcb6f91)
 
-<b> ⚡️⚡️That's all for my project, thanks for watching. If you have any question, don't hesitate inbox me. ⚡️⚡️</b>
+<b> ⚡️That's all for my project, thanks for watching. If you have any question, don't hesitate inbox me.⚡️</b>
