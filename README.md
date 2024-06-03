@@ -74,3 +74,25 @@ curl -o libs https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.
 curl -o libs https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.4/hadoop-aws-3.3.4.jar
 curl -o libs https://repo1.maven.org/maven2/org/postgresql/postgresql/42.2.20/postgresql-42.2.20.jar
 ```
+
+6- Build docker:
+
+```
+docker compose up -d
+```
+
+7- Run step by step files:
+
+```
+python3 run setup_db_uber.py
+python3 setup_coordinate_lookup.py
+python3 run preparation_data.py
+python3 spark_analysts.py
+```
+
+Check data in PosgreSQL and Minio (`http://localhost:9001/`)
+<p align="center">
+  <img src="images/postgresql_deltalake.png" alt="Wallpaper">
+</p>
+
+8- 
