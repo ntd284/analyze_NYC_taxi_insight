@@ -39,7 +39,7 @@ This fragmentation resulted in incomplete insights and hindered our ability to m
 
 - [setup_db_uber.py](setup_db_uber.py): is created to create database for storing as a `data warehouse` after processing.
 
-- [sql_uber_analyst.py](sql_uber_analyst.py): for building `data warehouse` to execute visualization and analyst purpose. 
+- [sql_uber_analyst.sql](sql_uber_analyst.sql): for building `data warehouse` to execute visualization and analyst purpose. 
 
 - [spark_analysts.py](spark_analysts.py): initializes the `Spark Session`, defines `configuration parameters`, process data and push them into data warehouse (PosgreSQL) and delta Lake.
  
