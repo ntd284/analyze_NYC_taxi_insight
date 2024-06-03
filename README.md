@@ -90,9 +90,19 @@ python3 run preparation_data.py
 python3 spark_analysts.py
 ```
 
-Check data in PosgreSQL and Minio (`http://localhost:9001/`)
+Check inserted table in <b>PostgreSQL</b> and <b>Minio</b> (`http://localhost:9001/`)
 <p align="center">
   <img src="images/posgresql_deltalake.png" alt="Wallpaper">
 </p>
 
-8- 
+8- Create Script in PostgreSQL to build visualization:
+
+<p align="center">
+  <img src="images/postgresql_sql.png" alt="Wallpaper">
+</p>
+
+9- Access to Superset in `http://localhost:8088/` to build visualization:
+
+<p align="center">
+  <img src="images/visualization.jpg" alt="Wallpaper">
+</p>
