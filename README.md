@@ -113,6 +113,8 @@ Check inserted table in <b>PostgreSQL</b> and <b>Minio</b> (`http://localhost:90
   <img src="images/visualization.jpg" alt="Wallpaper">
 </p>
 
+<b>That's all for my project, thanks for watching. If you have any question, don't hesitate inbox me.</b>
+
 ### 🔑 Reference:
 [1] [Uber Data Analytics | End-To-End Data Engineering Project](https://www.youtube.com/watch?v=WpQECq5Hx9g)
 
