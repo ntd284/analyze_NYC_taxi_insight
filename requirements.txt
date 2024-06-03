@@ -1,0 +1,8 @@
+pandas
+minio
+pyarrow
+fastparquet
+geopy
+psycopg2
+pyspark
+delta-spark

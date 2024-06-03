@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  minio:
+    image: docker.io/bitnami/minio:latest
+    platform: linux/amd64
+    ports:
+      - '9000:9000'
+      - '9001:9001'
+    networks:
+      - minionetwork
+    volumes:
+      - 'minio_data:/data'
+    environment:
+      - MINIO_ROOT_USER=admin
+      - MINIO_ROOT_PASSWORD=123456789
+      - MINIO_DEFAULT_BUCKETS=buck
+  postgres:
+    image: debezium/example-postgres:1.9
+    platform: linux/amd64
+    container_name: postgres
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+  superset:
+      build:
+        context: ./superset
+        dockerfile: dockerfile
+      container_name: superset
+      environment:
+        - ADMIN_USERNAME=admin
+        - ADMIN_EMAIL=admin@superset.com
+        - ADMIN_PASSWORD=admin
+      ports:
+        - '8088:8088'
+networks:
+  minionetwork:
+    driver: bridge
+
+volumes:
+  minio_data:
+    driver: local
