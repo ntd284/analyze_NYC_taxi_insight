@@ -45,7 +45,7 @@ This fragmentation resulted in incomplete insights and hindered our ability to m
  
 ## Running project:
 
-0- Download [dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) in `.parquet` format
+0- Download [dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) in `.parquet` format into `data` folder
 
 1- Clone the repository:
 
