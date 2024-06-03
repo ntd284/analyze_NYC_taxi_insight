@@ -92,7 +92,7 @@ python3 spark_analysts.py
 
 Check data in PosgreSQL and Minio (`http://localhost:9001/`)
 <p align="center">
-  <img src="images/postgresql_deltalake.png" alt="Wallpaper">
+  <img src="images/posgresql_deltalake.png" alt="Wallpaper">
 </p>
 
 8- 
