@@ -106,3 +106,10 @@ Check inserted table in <b>PostgreSQL</b> and <b>Minio</b> (`http://localhost:90
 <p align="center">
   <img src="images/visualization.jpg" alt="Wallpaper">
 </p>
+
+### Reference:
+[1] [Uber Data Analytics | End-To-End Data Engineering Project](https://www.youtube.com/watch?v=WpQECq5Hx9g)
+
+[2] [How to use MinIO with Spark](https://medium.com/@abdullahdurrani/working-with-minio-and-spark-8b4729daec6e)
+
+[3] [NYC Taxi Trip Data Analysis](https://medium.com/@muhammadaris10/nyc-taxi-trip-data-analysis-45ecfdcb6f91)
